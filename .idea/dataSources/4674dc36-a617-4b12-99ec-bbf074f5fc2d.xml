@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Ass2">
+  <database-model serializer="dbm" rdbms="HSQLDB" format-version="4.7">
+    <root id="1"/>
+    <database id="2" parent="1" name="PUBLIC">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="2" name="SYSTEM_LOBS"/>
+    <table id="6" parent="4" name="ORDERS"/>
+    <table id="7" parent="4" name="PRODUCT"/>
+    <column id="8" parent="6" name="PID">
+      <Position>1</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="9" parent="6" name="ORDERID">
+      <Position>2</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="10" parent="6" name="EMAIL">
+      <Position>3</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="11" parent="6" name="QUANTITY">
+      <Position>4</Position>
+      <DataType>DOUBLE|8</DataType>
+    </column>
+    <column id="12" parent="6" name="PRICE">
+      <Position>5</Position>
+      <DataType>DOUBLE|8</DataType>
+    </column>
+    <column id="13" parent="7" name="PID">
+      <Position>1</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="14" parent="7" name="ARTIST">
+      <Position>2</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="15" parent="7" name="TITLE">
+      <Position>3</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="16" parent="7" name="DESCRIPTION">
+      <Position>4</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="17" parent="7" name="PRICE">
+      <Position>5</Position>
+      <DataType>INTEGER|4</DataType>
+    </column>
+    <column id="18" parent="7" name="THUMBNAIL">
+      <Position>6</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+    <column id="19" parent="7" name="FULLIMAGE">
+      <Position>7</Position>
+      <DataType>VARCHAR(256)|12</DataType>
+    </column>
+  </database-model>
+</dataSource>

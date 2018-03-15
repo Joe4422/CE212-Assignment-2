@@ -1,0 +1,15 @@
+.product-image {
+    height: 40px;
+    width: auto;
+}
+
+td {
+    text-align: center;
+}
+
+.table-button {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
